@@ -104,9 +104,7 @@ class Student {
        
     }
 
-
-    //geeter y setter
-    public function getIdStudent(){
+  public function getIdStudent(){
         return $this-> IdStudent;
     }
 
@@ -114,5 +112,133 @@ class Student {
     public function setIdStudent($idStudent){
         $this->IdStudent=$IdStudent;
     }
+
+
+
+
+
+    //geeter y setter
+    public function getName(){
+        return $this-> $name;
+    }
+
+
+    public function setName($name){
+        $this->name=$name;
+    }
+
+
+
+
+
+    public function getDNI(){
+        return $this->dni;
+    }
+
+
+    public function setDNI($dni){
+        $this->dni=$dni;
+    }
+
+
+
+
+
+
+    public function getsurname(){
+        return $this-> surname;
+    }
+
+
+    public function setsurname($surname){
+        $this->surname=$surname;
+    }
+
+
+
+
+
+
+    public function getIBirthdate(){
+        return $this-> IdStudent;
+    }
+
+
+    public function setBirthdate($birthdate){
+        $this->birthdate=$birthdate;
+    }
+
+
+
+
+
+
+    public function getPhone(){
+        return $this-> Phone;
+    }
+
+
+    public function setPhone($Phone){
+        $this->Phone=$Phone;
+    }
+  
+
+
+
+
+    public function getAdress(){
+        return $this-> Phone;
+    }
+
+
+    public function setAdress($Adress){
+        $this->Adress=$Adress;
+    }
+
+
+
+
+
+    public function getEmail(){
+        return $this-> Email;
+    }
+
+
+    public function setEmail($Email){
+        $this->Email=$Email;
+    }
+
+
+
+
+
+
+
+    public function getPassword(){
+        return $this-> Email;
+    }
+
+
+    public function setPassword($Password){
+        $this->Password=$Password;
+    }
+
+
+
+
+
+
+    public function getSchool(){
+        return $this-> Email;
+    }
+
+
+    public function setSchool($School){
+        $this->School=$School;
+    }
+
+
+
+
 }
 ?>

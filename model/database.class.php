@@ -1,7 +1,7 @@
 <?php
     class Database{
         private $conexion = null;
-        private $nombre   = "db_school";
+        private $nombre   = "estudiantes(1)";
         private $servidor = "localhost";
         private $usuario  = "root";
         private $clave    = "#Promo2024";
